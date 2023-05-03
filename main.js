@@ -46,7 +46,7 @@ form.addEventListener("submit", async (e) =>{
 
     e.preventDefault();
 
-    let city = inputForm.ariaValueMax;
+    let city = inputForm.value;
 
     const data = await getWeather(city);
 
